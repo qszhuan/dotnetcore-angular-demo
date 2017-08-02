@@ -43,7 +43,7 @@ If there are some errors, remove the folder `.vscode`, then click `Debug` again.
 
 ### Add Packages into csproj, then run `dotnet restore` 
 
-```diff
+```diff 
      <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="1.1.1" />
       <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.0" />		      <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.0" />
       <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.0" />		      <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.0" />
@@ -57,7 +57,7 @@ If there are some errors, remove the folder `.vscode`, then click `Debug` again.
     </ItemGroup>		    </ItemGroup>
     <ItemGroup>		    <ItemGroup>
       <!-- Files not to show in IDE -->		      <!-- Files not to show in IDE -->
-```
+``` 
 
 ### Generate DbContext class 
 
