@@ -61,6 +61,14 @@ If there are some errors, remove the folder `.vscode`, then click `Debug` again.
 
 ### Generate DbContext class 
 
+Use this command to generate the DbContext class:
+
 ```
 dotnet ef dbcontext scaffold  "Server=(local);Database=TestDb;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -c TestDbContext -p coreangular.csproj
+```
+
+Add some domain entities, then generate migration scripts:
+
+```
+ dotnet ef migrations add Initial
 ```
