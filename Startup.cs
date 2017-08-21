@@ -40,17 +40,18 @@ namespace coreangular
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
-            // if (env.IsDevelopment())
+            if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
                 app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions {
                     HotModuleReplacement = true
                 });
             }
-            // else
-            // {
-            //     app.UseExceptionHandler("/Home/Error");
-            // }
+            else
+            {
+                // app.UseExceptionHandler("/Home/Error");
+                 app.UseDeveloperExceptionPage();
+            }
 
             app.UseStaticFiles();
 
