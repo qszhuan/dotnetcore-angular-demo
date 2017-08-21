@@ -7,7 +7,9 @@
             "parameters": {
                 "appBundle": "site.zip",
                 "iisPath": "/",
-                "iisWebSite": "Default Web Site"
+                "iisWebSite": "Default Web Site",
+                "scripts": {
+                }
             }
         }
         ]
