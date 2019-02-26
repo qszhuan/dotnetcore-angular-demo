@@ -47,13 +47,13 @@ If there are some errors, remove the folder `.vscode`, then click `Debug` again.
      <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="1.1.1" />
       <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.0" />		      <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.0" />
       <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.0" />		      <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.0" />
- +    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.1.2" />
- +    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.2" />
- +    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.2" />
- +  </ItemGroup>
- +  <ItemGroup>
- +    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.0" />
- +    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
++    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.1.2" />
++    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.2" />
++    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.2" />
++  </ItemGroup>
++  <ItemGroup>
++    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.0" />
++    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
     </ItemGroup>		    </ItemGroup>
     <ItemGroup>		    <ItemGroup>
       <!-- Files not to show in IDE -->		      <!-- Files not to show in IDE -->
